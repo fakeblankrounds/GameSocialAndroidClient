@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:text="Sign in" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/ttl"
+         android:layout_height="wrap_content" 
+         android:layout_centerHorizontal="true" 
+         android:layout_alignParentLeft="false"></TextView>
+         
+        <EditText android:layout_width="fill_parent" 
+        android:text="EditText" android:id="@+id/username" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentLeft="true" 
+        android:layout_below="@+id/usernamelbl"></EditText>
+        
+        <TextView android:text="Username:" 
+        android:layout_width="wrap_content"
+         android:layout_below="@+id/ttl" 
+         android:id="@+id/usernamelbl"
+		android:layout_height="wrap_content"
+ 		android:layout_alignParentLeft="true"></TextView>
+ 
+   		<EditText android:layout_width="fill_parent" 
+   		android:text="EditText" android:id="@+id/password" 
+   		android:layout_height="wrap_content"
+   		 android:layout_alignParentLeft="true" 
+   		 android:layout_below="@+id/passwordlbl"></EditText>
+   		 
+   		<Button android:id="@+id/signin" 
+   		android:layout_width="wrap_content" 
+   		android:text="Sign in!" 
+   		android:layout_height="wrap_content"
+   		 android:layout_below="@+id/password"
+   		  android:layout_alignLeft="@+id/password" 
+   		  android:layout_alignRight="@+id/password"></Button>
+   		 
+   		<TextView android:text="----or----" 
+   		android:layout_width="wrap_content" 
+   		android:id="@+id/orlbl" 
+   		android:layout_height="wrap_content" 
+   		android:layout_below="@+id/signin" 
+   		android:layout_centerHorizontal="true"></TextView>
+   		
+   		<TextView android:text="Enter your password again and sign up!" 
+   		android:layout_width="wrap_content" 
+   		android:id="@+id/signuplbl" 
+   		android:layout_height="wrap_content" 
+   		android:layout_below="@+id/orlbl" >
+ 		</TextView>
+   		
+   		<EditText android:layout_width="fill_parent" 
+   		android:text="EditText"
+   		 android:id="@+id/confirmpass" 
+   		 android:layout_height="wrap_content" 
+   		 android:layout_below="@+id/signuplbl"></EditText>
+   		 
+   		<Button android:id="@+id/signup" 
+   		android:layout_width="fill_parent" 
+   		android:text="Sign Up!"
+   		 android:layout_height="wrap_content" 
+   		 android:layout_below="@+id/confirmpass"></Button>
+   		 
+   <TextView android:text="Password:" 
+        android:layout_width="wrap_content"
+         android:layout_below="@+id/username" 
+         android:id="@+id/passwordlbl"
+		android:layout_height="wrap_content"
+ 		android:layout_alignParentLeft="true"></TextView>
+ 
+   		
+    </RelativeLayout>
+ 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/tableLayout1">
+		<RelativeLayout android:id="@+id/FriendsLayout"
+			android:layout_width="wrap_content" android:layout_height="100px">
+			<TextView android:id="@+id/textView1"
+				android:layout_alignParentTop="true" android:text="Friends"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textSize="32px"></TextView>
+			<ImageView android:src="@drawable/array" android:id="@+id/imageView1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"></ImageView>
+		</RelativeLayout>
+	</TableLayout>
+	<RelativeLayout android:id="@+id/GroupsLayout"
+		android:layout_width="fill_parent" android:layout_height="100px">
+		<TextView android:id="@+id/textView2" android:text="Groups"
+			android:layout_width="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_height="wrap_content" android:textSize="32px"></TextView>
+		<ImageView android:id="@+id/imageView2"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:src="@drawable/array" android:layout_alignParentRight="true"></ImageView>
+
+	</RelativeLayout>
+	
+	<RelativeLayout android:id="@+id/TeamsLayout"
+		android:layout_width="fill_parent" android:layout_height="100px">
+		<TextView android:layout_height="wrap_content" android:text="Teams"
+			android:layout_alignParentTop="true" android:layout_width="wrap_content"
+			android:id="@+id/textView3" android:textSize="32px"></TextView>
+		<ImageView android:id="@+id/imageView3"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:src="@drawable/array" android:layout_alignParentRight="true"></ImageView>
+	</RelativeLayout>
+	
+</LinearLayout>
